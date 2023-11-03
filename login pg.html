@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+    <link rel="stylesheet" href="./style.css" />
+    <title>Login Page</title>
+    <style>
+        
+        .form-group {
+             margin-bottom: 20px;
+        }
+        .form-control {
+            border-radius: 0;
+        }
+        .login-button {
+            text-align: center;
+        }
+        
+        .login-container {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+            background-color: #f8f9fa;
+        }
+
+        .login-form {
+            width: 50%;
+            background-color: #f8f9fa;
+            padding: 20px;
+            border-radius: 5px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            margin-bottom: 20px; 
+        }
+
+      
+        #title-container {
+            width: 50%;
+            background-color: #f8f9fa;
+            padding: 20px;
+            border-radius: 5px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            margin-left: 20px; 
+        }
+
+        
+        .image-container {
+            flex: 1; 
+            background-color: #f8f9fa;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .image-container img {
+            max-width: 100%;
+            height: auto;
+        }
+    </style>
+</head>
+<body>  
+    <div class="container-fluid p-0">
+        <div class="row md-0=6">
+            <div class="login-container col-md-6">
+                <div class="title-container">
+                    <h1><i>Welcome to BingeBites!</i></h1>  
+                </div>
+               
+                <div id="logincard" class="login-form row-md-6">
+                    <h2>Login</h2>
+                    <form>
+                        <div class="form-group">
+                            <label for="username">Username</label>
+                            <input type="text" class="form-control" id="username" placeholder="Enter your username">
+                        </div>
+                        <div class="form-group">
+                            <label for="password">Password</label>
+                            <input type="password" class="form-control" id="password" placeholder="Enter your password">
+                        </div>
+                        <div class="login-button">
+                            <a href="C:\Users\Agarwal's\Documents\E-com-food-web\index.html">
+                                <button type="button" class="btn btn-primary">Login</button>
+                            </a>
+                        </div>
+                    </form>
+                </div>
+            </div>
+            <div id="homepageimg" class="image-container col-md-4">
+                <img src="https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,h_1340/Lunch1_vlksgq" alt="Placeholder Image" />
+            </div>
+        </div>
+    </div>
+</body>
+</html>
